@@ -1,0 +1,77 @@
+{
+  "name": "baecafe",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .ts,.tsx --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./src/**/*.+(ts|tsx)": [
+      "eslint --fix",
+      "gid add"
+    ],
+    "./src/**/*.+(css|scss|js)": "prettier --write"
+  },
+  "dependencies": {
+    "@ethersproject/contracts": "^5.6.0",
+    "@ethersproject/providers": "^5.6.0",
+    "@ethersproject/units": "^5.6.0",
+    "@metamask/jazzicon": "^2.0.0",
+    "@walletconnect/client": "1.7.0",
+    "@walletconnect/core": "1.7.0",
+    "@walletconnect/ethereum-provider": "1.6.0",
+    "@walletconnect/signer-connection": "1.7.0",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "6.2.8",
+    "axios": "^0.26.1",
+    "decimal.js": "^10.3.1",
+    "framer-motion": "^6.3.10",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-cookie": "^4.1.1",
+    "react-countdown-circle-timer": "^3.0.9",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-masonry-component": "^6.3.0",
+    "react-modal": "^3.14.4",
+    "spinners-react": "^1.0.6",
+    "styled-components": "^5.3.3",
+    "web3": "^1.7.3",
+    "whalestats-tooltip": "^0.0.13"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@types/node": "^14.0.23",
+    "@types/react": "^16.9.43",
+    "@types/styled-components": "^5.1.1",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "autoprefixer": "^9",
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-next": "^11.0.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "next-sitemap": "^1.6.162",
+    "postcss": "^7",
+    "postcss-preset-env": "^7.6.0",
+    "prettier": "^2.0.5",
+    "typescript": "^4.4.2"
+  }
+}
