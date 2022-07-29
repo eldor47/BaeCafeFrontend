@@ -132,13 +132,13 @@ const Nav: NextPage<NavProps> = ({handleScroll, width, maxHeight, onChangeSeason
           ART BAE
         </button>
         <button className="nav-item mint-item">SOLD OUT</button>
-        <button
+        {/* <button
           className="nav-item toggle"
           onClick={() => handleChangeSeason()}
         >
           <div className='season-selection'><Toggle /></div>
           Season 1
-        </button>
+        </button> */}
       </div>
       <div
         className="nav-items dropdownMenu"
@@ -160,13 +160,13 @@ const Nav: NextPage<NavProps> = ({handleScroll, width, maxHeight, onChangeSeason
           ART BAE
         </button>
         <button className="nav-item mint">SOLD OUT</button>
-        <button
+        {/* <button
           className="nav-item toggle"
           onClick={() => handleChangeSeason()}
         >
           <div className='season-selection'><Toggle /></div>
           <div style={{paddingTop: '12px'}}>Season 1</div>
-        </button>
+        </button> */}
       </div>
     </NavStyle>
   );

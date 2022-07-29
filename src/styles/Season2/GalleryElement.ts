@@ -45,7 +45,7 @@ const GalleryStyle = styled.div`
     width: 400px;
   }
   .gallery-title {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -73,7 +73,7 @@ const GalleryStyle = styled.div`
     width: 100%;
   }
   .gallery-drop-menu-title {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -100,7 +100,7 @@ const GalleryStyle = styled.div`
     height: 25px;
   }
   .gallery-drop-menu-type {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;

@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 const Season2Style = styled.div`
-  position: relative;
-  background-color: #240259;
   width: 100%;
   height: 100vh;
   display: block;
   padding-top: 132px;
+  background-color: #091833;
 
   .season2-parent-menu {
     position: fixed;

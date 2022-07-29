@@ -18,7 +18,7 @@ const CollectionStyle = styled.div`
 
   .collection-title {
     padding-top: 0px;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -40,7 +40,7 @@ const CollectionStyle = styled.div`
   }
   .collection-main-image-title {
     padding-top: 8px;
-    font-family: 'Quicksand';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -49,7 +49,7 @@ const CollectionStyle = styled.div`
   }
   .collection-main-image-detail {
     padding-bottom: 20px;
-    font-family: 'Quicksand';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -105,7 +105,7 @@ const CollectionStyle = styled.div`
     position: relative;
     display: block;
     z-index: 1;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;

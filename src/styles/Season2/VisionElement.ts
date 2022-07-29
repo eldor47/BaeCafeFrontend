@@ -11,7 +11,7 @@ const VisionStyle = styled.div`
   justify-content: center;
   padding-bottom: 40px;
   .vision-footer {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -23,7 +23,7 @@ const VisionStyle = styled.div`
     font-style: italic;
   }
   .vision-title {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -89,7 +89,7 @@ const VisionStyle = styled.div`
   }
 
   .vision-description {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;

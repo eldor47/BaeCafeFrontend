@@ -50,7 +50,7 @@ const MintStyle = styled.div<{height: number}>`
     .success {
       align-self: center;
       padding-top: 2px;
-      font-family: 'Consolas';
+      font-family: 'ArticulatCF-Normal';
       color: #8FD988;
       font-weight: 700;
       margin-right: 8px;
@@ -69,7 +69,7 @@ const MintStyle = styled.div<{height: number}>`
     }
     .etherscan {
       display: flex;
-      font-family: 'Consolas';
+      font-family: 'ArticulatCF-Normal';
       color: #101113;
       align-items: center;
       padding-top: 2px;
@@ -109,7 +109,7 @@ const MintStyle = styled.div<{height: number}>`
   }
   .mint-bae {
     font-weight: bold;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-size: 36px;
     line-height: 38px;    
     display: flex;
@@ -119,7 +119,7 @@ const MintStyle = styled.div<{height: number}>`
   }
   .mint-title {
     font-weight: bold;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -0.02em;
@@ -132,7 +132,7 @@ const MintStyle = styled.div<{height: number}>`
   .mint-description {
     margin-top: 8px;
     font-weight: 400;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-size: 24px;
     line-height: 40px;
@@ -148,7 +148,7 @@ const MintStyle = styled.div<{height: number}>`
         margin-left: 32px;
         font-size: 24px;
         line-height: 32px;
-        font-family: 'Consolas';
+        font-family: 'ArticulatCF-Normal';
         color: #b6f486;
         width: 400px;
         @media(max-width: 768px){
@@ -182,7 +182,7 @@ const MintStyle = styled.div<{height: number}>`
         max-height: 70px;
       }
       .mint-text {
-        font-family: 'Consolas';
+        font-family: 'ArticulatCF-Normal';
         font-weight: bold;
         font-size: 30px;
         line-height: 36px;
@@ -205,7 +205,7 @@ const MintStyle = styled.div<{height: number}>`
         .mint-add-btn {
           color: #b6f486;
           font-weight: normal;
-          font-family: 'Consolas';
+          font-family: 'ArticulatCF-Normal';
           cursor: pointer;
           background-color: transparent;
           border: none;
@@ -242,7 +242,7 @@ const MintStyle = styled.div<{height: number}>`
           line-height: 32px;
           display: flex;
           color: #b6f486;
-          font-family: 'Consolas';
+          font-family: 'ArticulatCF-Normal';
           align-items: flex-end;
           text-align: right;
           @media (max-width: 768px) {
@@ -299,7 +299,7 @@ const MintStyle = styled.div<{height: number}>`
         .connect-btn {
           color: #240259;
           font-size: 28px;
-          font-family: 'Consolas';
+          font-family: 'ArticulatCF-Normal';
           font-weight: 600;
           cursor: pointer;
           margin-right: 32px;
@@ -331,7 +331,7 @@ const MintStyle = styled.div<{height: number}>`
           }
         }
         .connected-btn {
-          font-family: 'Consolas';
+          font-family: 'ArticulatCF-Normal';
           cursor: pointer;
           margin-right: 32px;
           display: flex;
@@ -363,7 +363,7 @@ const MintStyle = styled.div<{height: number}>`
         .mint-btn {
           color: #240259;
           font-size: 28px;
-          font-family: 'Consolas';
+          font-family: 'ArticulatCF-Normal';
           font-weight: 600;
           cursor: pointer;
           cursor: pointer;

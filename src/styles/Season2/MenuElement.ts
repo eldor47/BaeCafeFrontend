@@ -2,15 +2,16 @@ import { CLOUDFRONT_IMG } from 'components/helper';
 import styled from 'styled-components';
 
 const MenuStyle = styled.div`
-  background-color: #240259;
+
   width: 100%;
   padding-top: 20px;
   padding-bottom: 0px;
+  background-color: #091833;
 
   .season2-menu-parent {
     width: 100%;
-    height: 80px;
     display: flex;
+    padding-bottom: 10px;
     align-items: center;
     a {
       display: contents;
@@ -35,6 +36,7 @@ const MenuStyle = styled.div`
     justify-content: center;
     width: 100%;
     height: 56px;
+    opacity: 1;
   }
   .season2-menu-smallRow-action {
     position: relative;
@@ -43,20 +45,22 @@ const MenuStyle = styled.div`
     justify-content: center;
     width: 100%;
     padding-top: 20px;
+    opacity: 1;
   }
   .season2-menu-smallText {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    color: #8fd988;
+    color: white;
     text-transform: uppercase;
     cursor: pointer;
     padding-top: 5px;
     :hover {
       opacity: 0.6;
     }
+    opacity: 1;
   }
 
   .menu-close-image-parent {
@@ -118,7 +122,7 @@ const MenuStyle = styled.div`
   }
 
   .season2-logo {
-    height: 83px;
+    height: 75px;
     padding-left: 24px;
     padding-right: 31px;
     :hover {
@@ -129,7 +133,7 @@ const MenuStyle = styled.div`
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding-right: calc(61 / 1440 * 100vw);
   }
   .season2-menu-comingsoon {
@@ -150,13 +154,13 @@ const MenuStyle = styled.div`
     }
   }
   .season2-menu-comingsoonText {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 32px;
     text-transform: uppercase;
-    color: #240259;
+    color: white;
     padding-top: 5px;
     width: max-content;
   }
@@ -166,13 +170,13 @@ const MenuStyle = styled.div`
     margin-left: 36px;
     height: 50px;
     cursor: pointer;
-    width: 132px;
-    background-image: url('${CLOUDFRONT_IMG}/season2/button/connect-btn.png');
+    width: 150px;
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: 132px 50px;
     :hover {
-      background-image: url('${CLOUDFRONT_IMG}/season2/button/connect-btn-hover.png');
+      opacity: 0.5;
+      transition: 0.25s;
     }
     @media (max-width: 1270px) {
       margin-left: 24px;
@@ -180,6 +184,8 @@ const MenuStyle = styled.div`
     @media (max-width: 1110px) {
       margin-left: 0;
     }
+    border: 3px solid white;
+    border-radius: 10px;
   }
   .season2-menu-primaryImage {
     height: 100%;
@@ -195,15 +201,14 @@ const MenuStyle = styled.div`
     align-items: center;
   }
   .season2-menu-primaryText {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    text-transform: uppercase;
     cursor: pointer;
     padding-top: 5px;
-    color: #240259;
+    color: white;
     z-index: 1;
     @media (max-width: 1320px) {
       font-weight: 600;
@@ -225,7 +230,7 @@ const MenuStyle = styled.div`
     cursor: pointer;
   }
   .season2-menu-switchText {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     width: max-content;
     font-style: normal;
     font-weight: 700;
@@ -234,7 +239,7 @@ const MenuStyle = styled.div`
     text-transform: uppercase;
     cursor: pointer;
     padding-top: 10px;
-    color: #b6f486;
+    color: white;
     height: 32px;
     @media (max-width: 1320px) {
       font-weight: 600;

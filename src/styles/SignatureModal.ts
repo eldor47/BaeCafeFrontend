@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const SinatureModal = styled.div`
   border-radius: 8px;
-  font-family: 'Consolas';
+  font-family: 'ArticulatCF-Normal';
   min-width: 360px;
   .modal_wrapper {
     position: relative;
@@ -65,7 +65,7 @@ const SinatureModal = styled.div`
     }
   }
   .signature {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     cursor: pointer;
     display: flex;
     font-size: 18px;

@@ -20,7 +20,7 @@ const TeamStyle = styled.div`
     position: absolute;
     top: -85px;
     left: 0px;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -88,7 +88,7 @@ const TeamStyle = styled.div`
         margin-left: 0px;
       }
       .bae-name {
-        font-family: 'Consolas';
+        font-family: 'ArticulatCF-Normal';
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
@@ -97,7 +97,7 @@ const TeamStyle = styled.div`
         color: #8fd988;
       }
       .bae-description {
-        font-family: 'Consolas';
+        font-family: 'ArticulatCF-Normal';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;

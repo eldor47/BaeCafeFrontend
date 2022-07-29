@@ -34,7 +34,7 @@ const GalleryStyle = styled.div`
     margin-left: 12px;
     .connnect-info {
       color: #ffffff;
-      font-family: 'Consolas';
+      font-family: 'ArticulatCF-Normal';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -44,7 +44,7 @@ const GalleryStyle = styled.div`
     }
     .error {
       color: #ff6b57;
-      font-family: 'Consolas';
+      font-family: 'ArticulatCF-Normal';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -63,7 +63,7 @@ const GalleryStyle = styled.div`
       border: 2px solid #949494;
       padding-left: 12px;
       flex: 1;
-      font-family: 'Consolas';
+      font-family: 'ArticulatCF-Normal';
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
@@ -77,7 +77,7 @@ const GalleryStyle = styled.div`
   .tweet-info {
     margin-top: 12px;
     margin-left: 12px;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -94,7 +94,7 @@ const GalleryStyle = styled.div`
   .option {
     margin-top: 8px;
     .option-title {
-      font-family: 'Consolas';
+      font-family: 'ArticulatCF-Normal';
       font-style: normal;
       font-weight: 700;
       margin-left: 12px;
@@ -139,7 +139,7 @@ const GalleryStyle = styled.div`
           border: 4px solid #8FD988;
         }
         .description{
-          font-family: 'Consolas';
+          font-family: 'ArticulatCF-Normal';
           font-style: normal;
           font-weight: 700;
           font-size: 22px;
@@ -174,7 +174,7 @@ const GalleryStyle = styled.div`
       font-size: 16px;
       .success-message{
         margin-top: 8px;
-        font-family: 'Consolas';
+        font-family: 'ArticulatCF-Normal';
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -183,7 +183,7 @@ const GalleryStyle = styled.div`
       }
       .error-message{
         margin-top: 8px;
-        font-family: 'Consolas';
+        font-family: 'ArticulatCF-Normal';
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -209,7 +209,7 @@ const GalleryStyle = styled.div`
     color: #240259;
     font-size: 20px;
     line-height: 24px;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-weight: 600;
     cursor: pointer;
     margin-right: 28px;
@@ -249,7 +249,7 @@ const GalleryStyle = styled.div`
     }
   }
   .connected-btn {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     cursor: pointer;
     margin-right: 28px;
     display: flex;
@@ -325,7 +325,7 @@ const GalleryStyle = styled.div`
     }
     .mekabae-title {
       margin-left: 12px;
-      font-family: 'Consolas';
+      font-family: 'ArticulatCF-Normal';
       font-style: normal;
       font-weight: 400;
       font-size: 22px;
@@ -345,7 +345,7 @@ const GalleryStyle = styled.div`
         margin-left: 12px;
         .item-content {
           margin-top: 8px;
-          font-family: 'Consolas';
+          font-family: 'ArticulatCF-Normal';
           font-style: normal;
           font-weight: 700;
           font-size: 22px;

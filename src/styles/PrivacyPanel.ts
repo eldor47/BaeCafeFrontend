@@ -46,7 +46,7 @@ const PrivacyPanel = styled.div<{theme: ThemeType}>`
     background-color: ${({theme: {maincolor}}) => maincolor};
   }
   .verify {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     display: flex;
     margin-left: auto;
     margin-right: auto;

@@ -8,13 +8,12 @@ const MenuItemStyle = styled.div`
   margin-left: 36px;
 
   .menuItemText {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    color: #8fd988;
-    text-transform: uppercase;
+    color: white;
     cursor: pointer;
     padding-top: 5px;
     :hover {
@@ -28,7 +27,7 @@ const MenuItemStyle = styled.div`
     bottom: 8px;
     height: 4px;
     width: 100%;
-    background: #8fd988;
+    background: white;
   }
   .menuItem-bottomLineNone {
     display: none;

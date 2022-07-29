@@ -122,7 +122,7 @@ const Menu: React.FC<MenuProps> = ({ onHandleMenu, onHandleShowDropMenu, menuInd
             alt="bae"
           ></img>
           <div className="season2-menu-primaryText-parent">
-            <div className="season2-menu-primaryText" onClick={() => handleTapMenu(6)} >MINT BAE</div>
+            <div className="season2-menu-primaryText" onClick={() => handleTapMenu(6)} >Season 2.5</div>
           </div>
         </div>
       </div>
@@ -177,8 +177,8 @@ const Menu: React.FC<MenuProps> = ({ onHandleMenu, onHandleShowDropMenu, menuInd
               <img
                 className="season2-logo"
                 src={`${CLOUDFRONT_IMG}/season2/logo/season2-logo.png`}
-                width="204"
-                height="83"
+                width="279"
+                height="75"
                 alt="bae"
               ></img>
             </a>
@@ -197,13 +197,13 @@ const Menu: React.FC<MenuProps> = ({ onHandleMenu, onHandleShowDropMenu, menuInd
             ></MenuItem>
             <MenuItem
               index={1}
-              text="REVEAL"
+              text="Reveal"
               isActive={menuIndex === 1 ? true : false}
               handleTapMenu={handleTapMenu}
             ></MenuItem>
             <MenuItem
               index={2}
-              text="VAULT"
+              text="Vault"
               isActive={menuIndex === 2 ? true : false}
               handleTapMenu={handleTapMenu}
             ></MenuItem>
@@ -215,7 +215,7 @@ const Menu: React.FC<MenuProps> = ({ onHandleMenu, onHandleShowDropMenu, menuInd
             ></MenuItem>
             <MenuItem
               index={4}
-              text="TEAM"
+              text="Team"
               isActive={menuIndex === 4 ? true : false}
               handleTapMenu={handleTapMenu}
             ></MenuItem>
@@ -224,10 +224,10 @@ const Menu: React.FC<MenuProps> = ({ onHandleMenu, onHandleShowDropMenu, menuInd
               onClick={() => handleTapMenu(6)}
             >
               <div className="season2-menu-primaryText-parent">
-                <div className="season2-menu-primaryText">MINT BAE</div>
+                <div className="season2-menu-primaryText">Season 2.5</div>
               </div>
             </div>
-            <div
+            {/* <div
               className="season2-menu-switchParent"
               onClick={() => handleTapMenu(8)}
             >
@@ -237,7 +237,7 @@ const Menu: React.FC<MenuProps> = ({ onHandleMenu, onHandleShowDropMenu, menuInd
                 alt="bae"
               ></img>
               <div className="season2-menu-switchText">SEASON 2</div>
-            </div>
+            </div> */}
           </div>
         </div>
         {dropMenu}

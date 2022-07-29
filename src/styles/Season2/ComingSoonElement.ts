@@ -80,7 +80,7 @@ const ComingSoonStyle = styled.div<{height: number}>`
     margin-left: 0px;
     margin-right: 0px;
     padding-top: 10px;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 400;
     font-size: 38px;

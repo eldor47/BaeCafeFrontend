@@ -12,7 +12,7 @@ const GalleryMenuStyle = styled.div`
     width: 24px;
   }
   .gallery-menu-text {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;

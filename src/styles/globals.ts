@@ -15,35 +15,20 @@ const GlobalStyle = createGlobalStyle`
       -webkit-appearance: none;
       width: 8px;
     }
-    ::-webkit-scrollbar-thumb {
-      background: #f2d7b2;
-      border-radius: 10px;
-    }
-    ::-webkit-scrollbar-track{
-      background: #ECE5DB;
-    }
   }
   .season2{
-    background: #240259;
+    background: #091833;
     overflow: auto !important;
-    scrollbar-color: #4604ac transparent;
     scrollbar-width: thin;
     ::-webkit-scrollbar {
       -webkit-appearance: none;
       width: 8px;
     }
-    ::-webkit-scrollbar-thumb {
-      background: #4604ac;
-      border-radius: 10px;
-    }
-    ::-webkit-scrollbar-track{
-      background: #240259;
-    }
   }
   body {
     min-width: 425px;
     font-size: calc(14px + .5vw);
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'ArticulatCF-Normal', sans-serif;
     line-height: 1.7;
     overscroll-behavior: none;
     :after{

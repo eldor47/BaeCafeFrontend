@@ -104,26 +104,25 @@ const Home: NextPage = () => {
     <HomeStyle>
       <div className="home-left-parent">
         <div className="home-left">
-          <div className="home-left-title">Welcome rangers!</div>
+          <div className="home-left-title-left">WELCOME</div>
+          <div className="home-left-title-right">RANGERS</div>
           <div style={{ height: 24 }}></div>
           <div className="home-welcome-description-big">
             <div className="home-left-description">
               The cafe is under alien attack!! Hana and the gang have managed to
-              collect some tech from the wreckage of a downed ship. They`ve
-              fashioned meka suits to aid in their defense.
+              collect some tech from the wreckage of a downed ship. They have
+              fashioned meka suits to aid in their defense. How do they look?
             </div>
-            <div className="home-left-description">How do they look?</div>
           </div>
 
           <div className="home-welcome-description-small">
             <div className="home-left-description">
               The cafe is under alien attack!! Hana and the gang have managed to
-              collect some tech from the wreckage of a downed ship. They`ve
-              fashioned meka suits to aid in their defense.
+              collect some tech from the wreckage of a downed ship. They have 
+              fashioned meka suits to aid in their defense. How do they look?
             </div>
-            <div className="home-left-description">How do they look?</div>
           </div>
-
+{/* 
           <div className="social">
             <div className="social-item">
               <button
@@ -174,9 +173,7 @@ const Home: NextPage = () => {
               style={{ display: 'none' }}
               alt=""
             />
-          </div>
-          <div className="home-left-line"></div>
-          <div className="home-left-title">Features</div>
+          </div> */}
           <div className="home-right-image-parent-mobile">
             <img
               className="home-right-image-detail-mobile"
@@ -185,57 +182,17 @@ const Home: NextPage = () => {
             ></img>
             <div className="home-right-image-sub-mobile">
               <div className="home-right-action">
-                <img
-                  className="home-right-action-mainFrame"
-                  src="/image/home/ic-frame-action.png"
-                  alt=""
-                ></img>
-                <div className="home-right-checkout-parent">
-                  <div className="home-right-checkout-text">CHECK OUT</div>
-                </div>
                 <div
-                  className="home-right-opensea-parent"
-                  onClick={() => handleClick('opensea')}
-                >
-                  <div className="home-right-opensea-sub">
-                    <div className="home-right-opensea-text">OPEN SEA</div>
-                    <img
-                      className="home-right-opensea-arrows"
-                      src="/image/home/ic-next.png"
-                      alt=""
-                    ></img>
-                  </div>
-                </div>
+                  className="home-right-action-mainFrame"
+                ></div>
               </div>
             </div>
           </div>
           <div style={{ height: 6 }}></div>
           <div className="home-left-list-images">
-            <img
+            <div
               className="home-left-images"
-              src={`${CLOUDFRONT_IMG}/season2/home/ic-features-1.jpg`}
-              alt=""
-            ></img>
-            <img
-              className="home-left-images"
-              src={`${CLOUDFRONT_IMG}/season2/home/ic-features-2.jpg`}
-              alt=""
-            ></img>
-            <img
-              className="home-left-images"
-              src={`${CLOUDFRONT_IMG}/season2/home/ic-features-3.jpg`}
-              alt=""
-            ></img>
-            <img
-              className="home-left-images"
-              src={`${CLOUDFRONT_IMG}/season2/home/ic-features-4.jpg`}
-              alt=""
-            ></img>
-                      <img
-              className="home-left-images"
-              src={`${CLOUDFRONT_IMG}/season2/home/ic-features-5.jpg`}
-              alt=""
-            ></img>
+            ></div>
           </div>
         </div>
       </div>
@@ -255,7 +212,7 @@ const Home: NextPage = () => {
           exit={{ x: 0, opacity: 0 }}
         />
       </AnimatePresence>
-        <div className="home-right-action">
+        {/* <div className="home-right-action">
           <img
             className="home-right-action-mainFrame"
             src="/image/home/ic-frame-action.png"
@@ -277,7 +234,7 @@ const Home: NextPage = () => {
               ></img>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <img src={`${CLOUDFRONT_IMG}/season2/home/ic-home-2.png`} style={{ display: 'none' }} alt="" />
       <img src={`${CLOUDFRONT_IMG}/season2/home/ic-home-10.png`} style={{ display: 'none' }} alt="" />

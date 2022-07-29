@@ -56,12 +56,12 @@ export default class MyDocument extends NextDocument<DocumentProps>  {
           />
           <link
             rel="preload"
-            href={`${CLOUDFRONT_IMG}/season2/font/CONSOLA.woff2`}
+            href={`${CLOUDFRONT_IMG}/season2/font/ArticulatCF-Normal.ttf`}
             as="style"
             crossOrigin="anonymous"/>
           <link
             rel="preload"
-            href={`${CLOUDFRONT_IMG}/season2/font/CONSOLAB.woff2`}
+            href={`${CLOUDFRONT_IMG}/season2/font/ArticulatCF-Normal.ttf`}
             as="style"
             crossOrigin="anonymous"
           />

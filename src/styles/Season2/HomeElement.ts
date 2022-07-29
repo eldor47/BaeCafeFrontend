@@ -14,6 +14,10 @@ const HomeStyle = styled.div`
   animation-delay: 0.5s;
   animation-fill-mode: both;
 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/image/BAECAFE-background.png');
+
   .home-left-parent {
     width: 55%;
   }
@@ -23,25 +27,38 @@ const HomeStyle = styled.div`
     width: 100%;
     padding-left: 88px;
     padding-right: 0px;
+    padding-top: 200px;
     z-index: 1;
   }
-  .home-left-title {
-    font-family: 'Consolas';
+
+  .home-left-title-right {
+    font-family: 'ArticulatCF-Heavy';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 150px;
+    color: #ea00d9;
+    text-transform: uppercase;
+    margin-left: 150px;
+  }
+  .home-left-title-left {
+    font-family: 'ArticulatCF-Heavy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
     line-height: 52px;
-    color: #8fd988;
+    color: white;
     text-transform: uppercase;
   }
   .home-left-description {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 32px;
     color: #8fd988;
-    text-transform: uppercase;
+    margin-left: 150px;
+    color: white;
+    width: 600px
   }
   .home-left-line {
     margin-top: 62px;
@@ -59,6 +76,7 @@ const HomeStyle = styled.div`
   .home-left-images {
     margin-top: 24px;
     width: 100%;
+    height: 100vh;
   }
   .home-left-video {
     margin-top: 24px;
@@ -164,7 +182,7 @@ const HomeStyle = styled.div`
     z-index: 2;
   }
   .home-right-checkout-text {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -188,7 +206,7 @@ const HomeStyle = styled.div`
     flex-direction: row;
   }
   .home-right-opensea-text {
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;

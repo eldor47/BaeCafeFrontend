@@ -16,12 +16,12 @@ const ModalStyle = styled.div`
     align-items: flex-end;
     letter-spacing: -0.02em;
     color: #8FD988;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
   }
   .modalHeader {
     display: flex;
     border-bottom: 2px solid #8FD988;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
   }
   .closeBtn {
     font-size: 24px;
@@ -48,7 +48,7 @@ const ModalStyle = styled.div`
         line-height: 48px;
         margin-right: 10px;
         color: #8FD988;
-        font-family: 'Consolas';
+        font-family: 'ArticulatCF-Normal';
       }
       .change-btn{
         height: 40px;
@@ -78,7 +78,7 @@ const ModalStyle = styled.div`
         font-weight: bold;
         flex-direction: row;
         font-size: 16px;
-        font-family: 'Consolas';
+        font-family: 'ArticulatCF-Normal';
         height: 40px;
         justify-content: center;
         align-items: center;
@@ -103,7 +103,7 @@ const ModalStyle = styled.div`
         font-size: 16px;
         margin-left: 12px;
         color: #8FD988;
-        font-family: 'Consolas';
+        font-family: 'ArticulatCF-Normal';
       }
       .copy-btn{
         flex: 1;
@@ -150,7 +150,7 @@ const ModalStyle = styled.div`
     text-align: left;
     color: #8FD988;
     line-height: 38px;
-    font-family: 'Consolas';
+    font-family: 'ArticulatCF-Normal';
     flex: 1;
   }
 `;
